@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+
+    background-color: #313131;
+    border: none;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;    
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.numzero {
+    width: 113px;
+    border-radius: 30px;
+}
+
+.operadores, .resolver {
+    background-color: #F28907;
+}
+.operadores:hover,
+.resolver:hover {
+    background-color: #bb6906;
+    transition: .5s ease-in-out;
+}
+
+.primeiros {
+    background-color: #9F9F9F;
+}
+
+.tela {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    text-align: right;
+    font-size: 3em;
+    padding-right: 5px;
+}
+
