@@ -8,13 +8,16 @@ function limpar() {
     var numero = document.getElementById('resultado').innerHTML = ''
 }
 
-function apagar(){
+function apagar() {
     var resultado = document.getElementById('resultado').innerHTML
-    document.getElementById('resultado').innerHTML = resultado.substring(0,resultado.length -1)
- }
- function resolver(){
-    var resultado = document.getElementById('resultado').innerHTML;
-    if (resultado){
-       document.getElementById('resultado').innerHTML = eval(resultado)
+
+    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length - 1)
+}
+
+function resolver() {
+    var resultado = document.getElementById('resultado').innerHTML
+
+    if (resultado) {
+        document.getElementById('resultado').innerHTML = eval(resultado)
     }
- }
+}
